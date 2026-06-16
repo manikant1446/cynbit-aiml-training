@@ -1,4 +1,4 @@
-percentage=int(input("Enter your percentage: "))
+percentage=float(input("Enter your percentage: "))
 if percentage >= 60:
     print("Grade : A")
 elif percentage >= 45:
