@@ -15,7 +15,6 @@ print("\nMissing Values:")
 print(df.isnull().sum())
 
 df = df.dropna()
-
 df = df.drop_duplicates()
 
 print("\nCleaned Dataset:")
